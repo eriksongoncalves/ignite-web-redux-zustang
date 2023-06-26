@@ -1,11 +1,10 @@
-import { AddTodo } from './components/AddTodo'
-import { TodoList } from './components/TodoList'
+import './styles/global.css'
+import { Player } from './pages/Player'
 
 function App() {
   return (
     <div>
-      <TodoList />
-      <AddTodo />
+      <Player />
     </div>
   )
 }
